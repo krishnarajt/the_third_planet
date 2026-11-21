@@ -1,0 +1,151 @@
+@import 'tailwindcss';
+
+/**
+ * The palette is a hypsometric tint — the convention physical relief atlases
+ * use to colour altitude. Land runs pale ochre to sienna, water runs deep
+ * teal, and the app chrome is simply more of the same water. That is what
+ * makes the map the brightest object on screen instead of the UI around it.
+ */
+@theme {
+  --color-abyss: #0b2429;
+  --color-deep: #103139;
+  --color-shelf: #17434c;
+  --color-tide: #235a63;
+  --color-foam: #8fb6b4;
+  --color-chalk: #f4efe3;
+
+  --color-lowland: #86a95f;
+  --color-savanna: #e0a93b;
+  --color-sienna: #c0562f;
+  --color-summit: #efe0c4;
+
+  /* The map's own two tones, shared with the MapLibre style so the quiz
+     basemap and the panel are unmistakably the same drawing. */
+  --color-land: #e8dcc0;
+  --color-coast: #b9a87e;
+
+  --font-display: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif;
+  --font-note: 'Newsreader', ui-serif, Georgia, serif;
+
+  --ease-thud: cubic-bezier(0.2, 1.4, 0.4, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    /* The map owns all gestures; letting the page bounce behind it on iOS
+       makes dragging the world feel like it is slipping. */
+    overscroll-behavior: none;
+  }
+
+  body {
+    margin: 0;
+    background: var(--color-abyss);
+    color: var(--color-chalk);
+    font-family: var(--font-display);
+    font-synthesis-weight: none;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Numbers that change in place — scores, populations — must not reflow the
+     text around them on every tick. */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-savanna);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-tide);
+    border-radius: 99px;
+    border: 3px solid var(--color-deep);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-foam);
+  }
+}
+
+@layer components {
+  /* An atlas sheet puts its legend in a ruled title block in the margin. The
+     panel borrows that: a hairline frame in the coastline colour, nothing
+     else, so it reads as part of the map rather than a floating card. */
+  .titleblock {
+    border: 1px solid color-mix(in srgb, var(--color-tide) 80%, transparent);
+    background: color-mix(in srgb, var(--color-deep) 92%, transparent);
+  }
+
+  /* Alphabet samples. The stack reaches for whatever Noto faces the device
+     has before falling back, because no single family covers Thaana,
+     Ge'ez, Tifinagh and Khmer at once — and where a glyph still will not
+     render, the written description beside it carries the meaning. */
+  .glyphs {
+    font-family: 'Noto Sans', 'Noto Sans Symbols 2', 'Segoe UI', system-ui, sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    word-break: break-word;
+  }
+
+  .hook {
+    font-family: var(--font-note);
+    font-style: italic;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    color: color-mix(in srgb, var(--color-summit) 88%, transparent);
+  }
+}
+
+/* MapLibre ships a light-mode control skin that fights the palette. */
+.maplibregl-ctrl-group {
+  background: var(--color-deep) !important;
+  border: 1px solid var(--color-tide) !important;
+  border-radius: 10px !important;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 0.35) !important;
+}
+.maplibregl-ctrl-group button {
+  background: transparent !important;
+  width: 34px !important;
+  height: 34px !important;
+}
+.maplibregl-ctrl-group button + button {
+  border-top: 1px solid var(--color-tide) !important;
+}
+.maplibregl-ctrl-group button:hover {
+  background: var(--color-shelf) !important;
+}
+.maplibregl-ctrl-group button .maplibregl-ctrl-icon {
+  filter: invert(92%) sepia(12%) saturate(220%) hue-rotate(345deg) brightness(102%);
+}
+.maplibregl-ctrl-attrib {
+  background: color-mix(in srgb, var(--color-abyss) 75%, transparent) !important;
+  border-radius: 8px 0 0 0 !important;
+  font-family: var(--font-display);
+  font-size: 10px !important;
+}
+.maplibregl-ctrl-attrib a {
+  color: var(--color-foam) !important;
+}
+.maplibregl-canvas:focus {
+  outline: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

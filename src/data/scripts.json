@@ -1,0 +1,157 @@
+{
+  "latin": {
+    "name": "Latin",
+    "sample": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z",
+    "look": "The alphabet this sentence is written in. Look instead at which accents turn up: ã õ point to Portuguese, ñ to Spanish, ø å to Scandinavia, ł ż to Polish, ș ț to Romanian, ğ ı ş to Turkish."
+  },
+  "cyrillic": {
+    "name": "Cyrillic",
+    "sample": "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я",
+    "look": "Latin-like but with reversed and unfamiliar letters — Я, И, Ж, Ф, Д, Щ. If you also see і or ї it is Ukrainian; ў is Belarusian; ђ ћ џ are Serbian; ѓ ќ are Macedonian."
+  },
+  "greek": {
+    "name": "Greek",
+    "sample": "Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω",
+    "look": "Triangles and forks: Δ, Λ, Σ, Ψ, Ω. Unmistakable, and only one country uses it as its main script."
+  },
+  "arabic": {
+    "name": "Arabic",
+    "sample": "ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي",
+    "look": "Flowing joined-up script read right to left, with dots above and below the line. Persian and Urdu add پ چ ژ گ; Urdu is written in a sloping, stacked nastaliq style that looks hand-drawn."
+  },
+  "hebrew": {
+    "name": "Hebrew",
+    "sample": "א ב ג ד ה ו ז ח ט י כ ל מ נ ס ע פ צ ק ר ש ת",
+    "look": "Square, blocky, unjoined letters that hang from the top line, read right to left. Almost everything is the same height with flat tops."
+  },
+  "armenian": {
+    "name": "Armenian",
+    "sample": "Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ",
+    "look": "Rounded, looping letters with many vertical stems and small hooks. Looks a little like a cursive Latin that never settled down."
+  },
+  "georgian": {
+    "name": "Georgian",
+    "sample": "ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ",
+    "look": "Soft, curly, no capital letters at all, with long descenders and ascenders. Rounder and bubblier than anything else in the region."
+  },
+  "devanagari": {
+    "name": "Devanagari",
+    "sample": "अ आ इ ई उ ऊ ए ऐ ओ औ क ख ग घ च छ ज झ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह",
+    "look": "Letters hang beneath a continuous horizontal bar, as if pinned to a washing line. Used for Hindi, Marathi and Nepali."
+  },
+  "bengali": {
+    "name": "Bengali",
+    "sample": "অ আ ই ঈ উ ঊ এ ঐ ও ঔ ক খ গ ঘ চ ছ জ ঝ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ",
+    "look": "Also hangs from a top bar like Devanagari, but the letters are rounder and more triangular underneath, with fewer straight verticals."
+  },
+  "gurmukhi": {
+    "name": "Gurmukhi",
+    "sample": "ਅ ਆ ਇ ਈ ਉ ਊ ਏ ਐ ਓ ਔ ਕ ਖ ਗ ਘ ਚ ਛ ਜ ਝ ਟ ਠ ਡ ਢ ਣ ਤ ਥ ਦ ਧ ਨ ਪ ਫ ਬ ਭ ਮ ਯ ਰ ਲ ਵ ਸ ਹ",
+    "look": "Top bar again, but simpler and more angular than Devanagari, with distinctive open loops. Used for Punjabi."
+  },
+  "gujarati": {
+    "name": "Gujarati",
+    "sample": "અ આ ઇ ઈ ઉ ઊ એ ઐ ઓ ઔ ક ખ ગ ઘ ચ છ જ ઝ ટ ઠ ડ ઢ ણ ત થ દ ધ ન પ ફ બ ભ મ ય ર લ વ શ ષ સ હ",
+    "look": "Devanagari with the top bar removed. The letters float free, which is the quickest way to tell the two apart."
+  },
+  "odia": {
+    "name": "Odia",
+    "sample": "ଅ ଆ ଇ ଈ ଉ ଊ ଏ ଐ ଓ ଔ କ ଖ ଗ ଘ ଚ ଛ ଜ ଝ ଟ ଠ ଡ ଢ ଣ ତ ଥ ଦ ଧ ନ ପ ଫ ବ ଭ ମ ଯ ର ଲ ଶ ଷ ସ ହ",
+    "look": "Dominated by big rounded umbrella shapes on top of each letter, giving a row of arches."
+  },
+  "tamil": {
+    "name": "Tamil",
+    "sample": "அ ஆ இ ஈ உ ஊ எ ஏ ஐ ஒ ஓ ஔ க ங ச ஞ ட ண த ந ப ம ய ர ல வ ழ ள ற ன",
+    "look": "Wide, open, curvy letters with lots of loops and very few joined parts. Noticeably rounder and more spaced out than the northern scripts, and no top bar."
+  },
+  "telugu": {
+    "name": "Telugu",
+    "sample": "అ ఆ ఇ ఈ ఉ ఊ ఎ ఏ ఐ ఒ ఓ ఔ క ఖ గ ఘ చ ఛ జ ఝ ట ఠ డ ఢ ణ త థ ద ధ న ప ఫ బ భ మ య ర ల వ శ ష స హ",
+    "look": "Rounded letters topped with little ticks and circles, often described as looking like rows of nailheads."
+  },
+  "kannada": {
+    "name": "Kannada",
+    "sample": "ಅ ಆ ಇ ಈ ಉ ಊ ಎ ಏ ಐ ಒ ಓ ಔ ಕ ಖ ಗ ಘ ಚ ಛ ಜ ಝ ಟ ಠ ಡ ಢ ಣ ತ ಥ ದ ಧ ನ ಪ ಫ ಬ ಭ ಮ ಯ ರ ಲ ವ ಶ ಷ ಸ ಹ",
+    "look": "Very close to Telugu — both are round with headmarks. Kannada's letters are a touch more angular and squared at the top."
+  },
+  "malayalam": {
+    "name": "Malayalam",
+    "sample": "അ ആ ഇ ഈ ഉ ഊ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ച ഛ ജ ഝ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന പ ഫ ബ ഭ മ യ ര ല വ ശ ഷ സ ഹ",
+    "look": "Heavily looped and curled, like continuous coils of rope. The most spiral-looking of the Indian scripts."
+  },
+  "sinhala": {
+    "name": "Sinhala",
+    "sample": "අ ආ ඇ ඈ ඉ ඊ උ ඌ එ ඒ ඔ ඕ ක ඛ ග ඝ ච ඡ ජ ට ඨ ඩ ඪ ණ ත ථ ද ධ න ප ඵ බ භ ම ය ර ල ව ශ ෂ ස හ",
+    "look": "Almost entirely made of circles and hooks, very round and bubbly with tails curling off the top and bottom."
+  },
+  "thaana": {
+    "name": "Thaana",
+    "sample": "ހ ށ ނ ރ ބ ޅ ކ އ ވ މ ފ ދ ތ ލ ގ ޏ ސ ޑ ޒ ޓ ޔ ޕ ޖ ޗ",
+    "look": "Written right to left like Arabic, but the letters are separate and many are recognisably derived from Arabic numerals. Only the Maldives uses it."
+  },
+  "thai": {
+    "name": "Thai",
+    "sample": "ก ข ค ง จ ฉ ช ซ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ล ว ศ ษ ส ห ฬ อ ฮ",
+    "look": "Small loops at the start of most letters, with tall flag-like ascenders and marks stacked above and below. No spaces between words."
+  },
+  "lao": {
+    "name": "Lao",
+    "sample": "ກ ຂ ຄ ງ ຈ ສ ຊ ຍ ດ ຕ ຖ ທ ນ ບ ປ ຜ ຝ ພ ຟ ມ ຢ ຣ ລ ວ ຫ ອ ຮ",
+    "look": "Like Thai but rounder, simpler and with far fewer letters — the loops are gone and the shapes are noticeably softer."
+  },
+  "khmer": {
+    "name": "Khmer",
+    "sample": "ក ខ គ ឃ ង ច ឆ ជ ឈ ញ ដ ឋ ឌ ឍ ណ ត ថ ទ ធ ន ប ផ ព ភ ម យ រ ល វ ស ហ ឡ អ",
+    "look": "Tall, ornate and spiky, with letters stacked in two tiers and long curling tails. Denser and more decorative than Thai."
+  },
+  "burmese": {
+    "name": "Burmese",
+    "sample": "က ခ ဂ ဃ င စ ဆ ဇ ဈ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ",
+    "look": "Rows of circles. Almost every letter is built from one or two rings, because it was originally written on palm leaves that would split under straight strokes."
+  },
+  "tibetan": {
+    "name": "Tibetan",
+    "sample": "ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ",
+    "look": "Hangs from a top line like Devanagari but with heavy wedge-shaped heads and syllables separated by a raised dot."
+  },
+  "mongolian": {
+    "name": "Mongolian",
+    "sample": "ᠠ ᠡ ᠢ ᠣ ᠤ ᠥ ᠦ ᠨ ᠪ ᠫ ᠬ ᠭ ᠮ ᠯ ᠰ ᠱ ᠲ ᠳ ᠴ ᠵ ᠶ ᠷ",
+    "look": "The only script written in vertical columns running left to right. Mongolia itself mostly uses Cyrillic day to day, and keeps this for ceremonial and decorative signage."
+  },
+  "chinese": {
+    "name": "Chinese characters",
+    "sample": "中 国 人 大 小 山 水 火 木 金 土 日 月 上 下 左 右 東 南 西 北 市 路 街 站",
+    "look": "Dense square blocks of even size. Simplified characters point to the mainland and Singapore; more intricate traditional forms point to Taiwan, Hong Kong and Macau."
+  },
+  "japanese": {
+    "name": "Japanese",
+    "sample": "あ い う え お か き く け こ ／ ア イ ウ エ オ カ キ ク ケ コ ／ 駅 町 市 番 地",
+    "look": "Three systems mixed in one line: square kanji, rounded flowing hiragana, and angular hard-cornered katakana. If you see curvy characters between the square ones, it is Japanese, not Chinese."
+  },
+  "korean": {
+    "name": "Hangul",
+    "sample": "ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ ／ 가 나 다 라 마 바 사 아 자 차",
+    "look": "Built from circles, squares and straight lines grouped into neat syllable blocks. The give-away is the circles — Chinese and Japanese have almost none."
+  },
+  "ethiopic": {
+    "name": "Ge'ez",
+    "sample": "ሀ ለ ሐ መ ሠ ረ ሰ ሸ ቀ በ ተ ቸ ኀ ነ ኘ አ ከ ኸ ወ ዐ ዘ ዠ የ ደ ጀ ገ ጠ ጨ ጰ ጸ ፀ ፈ ፐ",
+    "look": "Blocky, upright, slightly top-heavy shapes that often stand on little feet. Used in Ethiopia and Eritrea and nowhere else."
+  },
+  "tifinagh": {
+    "name": "Tifinagh",
+    "sample": "ⴰ ⴱ ⴳ ⴷ ⴹ ⴻ ⴼ ⴽ ⵀ ⵃ ⵄ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵟ ⵡ ⵢ ⵣ",
+    "look": "Geometric and almost runic — circles, crosses, dots and straight bars. Appears on Moroccan and Algerian road signs beside Arabic and Latin."
+  },
+  "syriac": {
+    "name": "Syriac",
+    "sample": "ܐ ܒ ܓ ܕ ܗ ܘ ܙ ܚ ܛ ܝ ܟ ܠ ܡ ܢ ܣ ܥ ܦ ܨ ܩ ܪ ܫ ܬ",
+    "look": "Joined right-to-left script that looks like a heavier, more angular Arabic. Seen on church signage in Iraq and Syria."
+  },
+  "nko": {
+    "name": "N'Ko",
+    "sample": "ߊ ߋ ߌ ߍ ߎ ߏ ߐ ߒ ߓ ߔ ߕ ߖ ߗ ߘ ߙ ߚ ߛ ߜ ߝ ߞ ߟ ߠ ߡ ߢ ߣ ߤ ߥ ߦ",
+    "look": "Right to left, with a strong unbroken baseline along the top and marks hanging below. Occasionally seen in Guinea and Mali."
+  }
+}
